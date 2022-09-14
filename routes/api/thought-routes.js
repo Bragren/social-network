@@ -1,4 +1,4 @@
-const router = require('express').router()
+const router = require('express').Router()
 
 const {findAllThoughts, findThoughtById, addThought, changeThought, removeThought, addReaction, removeReaction}
  = require('../../controllers/thought-controllers')
